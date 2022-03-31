@@ -1,0 +1,624 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>SDX</title>
+
+    <link rel="canonical" href="">
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/bootstrap-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="assets/img/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="assets/img/favicon/favicon-32x32.png" sizes="16x16" />
+    <!-- <meta name="theme-color" content="#7952b3"> -->
+    
+    <!-- Custom styles for this template -->
+    <link href="assets/css/custom.css" rel="stylesheet">
+
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="owl/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owl/dist/assets/owl.theme.default.min.css">
+    <!-- icon cdn -->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+
+
+</head>
+
+<body class="text-center bg-img">
+    <div class="container py-3 container-main">
+        <header class="mb-3 mb-md-4">
+            <div class="d-flex flex-wrap flex-md-nowrap justify-content-between align-items-center py-lg-4 order-0">
+                <div class="float-md-start mb-0 logo-div">
+                    <img src="assets/img/logo.png" alt="" class="img-fluid">
+                </div>
+                <ul class="navbar-nav float-end order-md-3">
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a class="navbar-dropdown-account-wrapper" href="javascript:;">
+                                <div class="avatar avatar-sm avatar-circle rounded-circle bg-white">
+                                    <img class="avatar-img" src="./assets/img/avatar.png" alt="Image Description">
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="col-md-6 col-lg-6 mx-auto mb-3 mb-md-0 order-md-2 mt-3 mt-md-0">
+                    <div class="input-group custom-search">
+                        <div class="input-group-prepend input-group-text">
+                            <img src="assets/img/logo.png" alt="" width="42px">
+                        </div>
+                        <input type="search" class="form-control" placeholder="Search">
+                        <span class="input-group-text input-group-text-icon"><img src="assets/img/search.svg" alt="" width="24px"></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="px-3">
+            <!-- filter section -->
+           <div class="filter-wrapper mb-5">
+               <ul class="d-flex justify-content-center flex-wrap flex-md-nowrap">
+                   <li class="mb-3 mb-md-0">
+                       <a href="">
+                           Filter
+                       </a>
+                   </li>
+                   <li class="mb-3 mb-md-0">
+                       <p>Manufacturing</p>
+                        <span><img src="assets/img/close.svg" alt=""></span>    
+                   </li>
+                   <li class="mb-3 mb-md-0">
+                        <p>Manufacturing</p>
+                        <span><img src="assets/img/close.svg" alt=""></span>    
+                    </li>
+                    <li class="mb-3 mb-md-0">
+                        <p>Manufacturing</p>
+                        <span><img src="assets/img/close.svg" alt=""></span>    
+                    </li>
+               </ul>
+           </div>
+           <!-- box section -->
+           <div class="box-wrapper d-flex justify-content-center flex-wrap flex-lg-nowrap justify-content-lg-between mb-5">
+               <!--  -->
+                <div class="box-col-outer px-2" data-bs-toggle="modal" data-bs-target="#useCase">
+                    <div class="box-col d-flex flex-wrap align-items-center mb-2">
+                        <div class="d-flex justify-content-start w-100">
+                            <div class="app-box-outer d-flex flex-wrap justify-content-center">
+                                <div class="app-box">
+                                    <img src="assets/img/Use-case-global.svg" alt="global" class="img-fluid">
+                                </div>
+                                <p class="mb-0">Overseas</p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-end w-100">
+                            <div class="app-box-outer d-flex flex-wrap justify-content-center">
+                                <div class="app-box">
+                                    <img src="assets/img/Use-case-japan.svg" alt="fluid" class="img-fluid">
+                                </div>
+                                <p class="mb-0">Japan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="text-white my-3 h1">Use Case</h4>
+                </div>
+                <!--  -->
+                <div class="box-col-outer px-2" data-bs-toggle="modal" data-bs-target="#searchcase">
+                    <div class="box-col d-flex flex-wrap align-items-center">
+                        <div class="d-flex justify-content-center w-100 mb-2">
+                            <div class="app-box-outer d-flex flex-wrap justify-content-center">
+                                <div class="app-box">
+                                    <img src="assets/img/dia.svg" alt="global" class="img-fluid">
+                                </div>
+                                <p class="mb-0">DIA</p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center w-100">
+                            <div class="app-box-outer d-flex flex-wrap justify-content-center">
+                                <div class="app-box">
+                                    <img src="assets/img/o-reilly.svg" alt="fluid" class="img-fluid">
+                                </div>
+                                <p class="mb-0">O'Reilly</p>
+                            </div>
+                            <div class="app-box-outer d-flex flex-wrap justify-content-center">
+                                <div class="app-box">
+                                    <img src="assets/img/omg.svg" alt="fluid" class="img-fluid">
+                                </div>
+                                <p class="mb-0">OMG</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="text-white my-3 h1">Training</h4>
+                </div>
+                <!--  -->
+                <div class="box-col-outer px-2">
+                    <div class="box-col d-flex flex-wrap align-items-center">
+                        <div class="d-flex justify-content-center w-100 mb-2">
+                            <div class="app-box-outer d-flex flex-wrap justify-content-center">
+                                <div class="app-box">
+                                    <img src="assets/img/Videos.svg" alt="global" class="img-fluid">
+                                </div>
+                                <p class="mb-0">Videos</p>
+                            </div>
+                            <div class="app-box-outer d-flex flex-wrap justify-content-center">
+                                <div class="app-box">
+                                    <img src="assets/img/Use-case-global.svg" alt="global" class="img-fluid">
+                                </div>
+                                <p class="mb-0">Assesment</p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center w-100">
+                            <div class="app-box-outer d-flex flex-wrap justify-content-center">
+                                <div class="app-box">
+                                    <img src="assets/img/News.svg" alt="fluid" class="img-fluid">
+                                </div>
+                                <p class="mb-0">News</p>
+                            </div>
+                            <div class="app-box-outer d-flex flex-wrap justify-content-center">
+                                <div class="app-box">
+                                    <img src="assets/img/Books-img.svg" alt="fluid" class="img-fluid">
+                                </div>
+                                <p class="mb-0">Books</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="text-white my-3 h1">Resource</h4>
+                </div>
+           </div>
+           <!-- video carousel -->
+            <div class="carousel-wrap">
+                <div class="owl-carousel owl-theme">
+                    <!-- <div class="item">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/Il7Nv270zNk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div> -->
+                    <div class="item-video"><a class="owl-video" href="https://www.youtube.com/watch?v=EF_kj2ojZaE"></a></div>
+                    <div class="item-video"><a class="owl-video" href="https://www.youtube.com/watch?v=EF_kj2ojZaE"></a></div>
+                    <div class="item-video"><a class="owl-video" href="https://www.youtube.com/watch?v=EF_kj2ojZaE"></a></div>
+                    <div class="item-video"><a class="owl-video" href="https://www.youtube.com/watch?v=EF_kj2ojZaE"></a></div>
+                    <div class="item-video"><a class="owl-video" href="https://www.youtube.com/watch?v=EF_kj2ojZaE"></a></div>
+                    <div class="item-video"><a class="owl-video" href="https://www.youtube.com/watch?v=EF_kj2ojZaE"></a></div>
+                    <div class="item-video"><a class="owl-video" href="https://www.youtube.com/watch?v=EF_kj2ojZaE"></a></div>
+                    <div class="item-video"><a class="owl-video" href="https://www.youtube.com/watch?v=EF_kj2ojZaE"></a></div>
+                </div>
+            </div>
+        </main>
+        
+  
+  
+        <footer class="mt-auto text-white-50">
+            <button type="button" class="btn btn-warning text-white" data-bs-toggle="modal" data-bs-target="#searchResult" data-bs-dismiss="modal">Save All</button>
+        </footer>
+  
+  
+  
+    </div>
+    <!-- Modal use case-->
+    <div class="modal fade" id="useCase" tabindex="-1" aria-labelledby="useCaseModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content modal-content-container">
+                <div class="modal-header border-bottom-0 p-4">
+                    <h5 class="modal-title h3" id="useCaseModalLabel">Use Case</h5>
+                    <button type="button" class="btn-close btn-icon-custom mx-2 my-0" data-bs-dismiss="modal" aria-label="Close">
+                        <img src="assets/img/close-modal.svg" alt="" width="28px">
+                    </button>
+                </div>
+                <div class="modal-body py-4">
+                    <div class="use-case-inner-body d-flex justify-content-md-between justify-content-center mx-md-auto  flex-wrap flex-md-nowrap text-center ">
+                        <div class="case-link text-center px-3 mb-3 mb-md-0">
+                            <div class="case-img">
+                                <img src="assets/img/Use-case-japan.svg" alt="japan" class="img-fluid" >
+                            </div>
+                            <h4 class="mt-3 h3">Japan</h4>
+                        </div>
+                        
+                    
+                        <div class="case-link text-center px-3">
+                            <div class="case-img">
+                                <img src="assets/img/Use-case-global.svg" alt="japan" class="img-fluid" >
+                            </div>
+                            <h4 class="mt-3 h3">Overseas</h4>
+                        </div>
+                        
+                    
+                        <!-- <div class="case-link text-center px-3">
+                            <div class="case-img">
+                                <img src="assets/img/Use-case-japan.svg" alt="japan" class="img-fluid" >
+                            </div>
+                            <h4 class="mt-3">Japan</h4>
+                        </div> -->
+                        
+                    </div>
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- Modal search case  -->
+    <div class="modal fade" id="searchcase" tabindex="-1" aria-labelledby="searchcaseModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content modal-content-container">
+                <div class="modal-header border-bottom-0 p-4">
+                    <div class="input-group custom-search">
+                        <div class="input-group-prepend input-group-text">
+                            <img src="assets/img/logo.png" alt="" width="42px">
+                        </div>
+                        <input type="search" class="form-control" placeholder="Search">
+                        <span class="input-group-text input-group-text-icon"><img src="assets/img/search.svg" alt="" width="24px"></span>
+                    </div>
+                    <button type="button" class="btn-close btn-icon-custom mx-2 my-0" data-bs-dismiss="modal" aria-label="Close">
+                        <img src="assets/img/close-modal.svg" alt="" width="28px">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex justify-content-md-between justify-content-center flex-wrap flex-md-nowrap text-center ">
+                        <div class="case-link text-center px-3 mb-3 mb-md-0">
+                            <div class="case-img">
+                                <img src="assets/img/News.svg" alt="japan" class="img-fluid" >
+                            </div>
+                            <h4 class="mt-3 h3">News</h4>
+                        </div>
+                        
+                    
+                        <div class="case-link text-center px-3 mb-3 mb-md-0">
+                            <div class="case-img">
+                                <img src="assets/img/Videos.svg" alt="japan" class="img-fluid" >
+                            </div>
+                            <h4 class="mt-3 h3">Videos</h4>
+                        </div>
+                        <div class="case-link text-center px-3">
+                            <div class="case-img">
+                                <img src="assets/img/Books-img.svg" alt="japan" class="img-fluid" >
+                            </div>
+                            <h4 class="mt-3 h3">Books</h4>
+                        </div>
+                        
+                    
+                        <!-- <div class="case-link text-center px-3">
+                            <div class="case-img">
+                                <img src="assets/img/Use-case-japan.svg" alt="japan" class="img-fluid" >
+                            </div>
+                            <h4 class="mt-3">Japan</h4>
+                        </div> -->
+                        
+                    </div>
+                </div>
+                <div class="modal-footer border-top-0">
+                    <button type="button" class="btn btn-warning btn-modal btn-lg py-3 px-4 fw-bold text-white" data-bs-toggle="modal" data-bs-target="#searchResult" data-bs-dismiss="modal">Save All <i class="las la-angle-right"></i></button> 
+                    <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal search result-->
+    <div class="modal fade" id="searchResult" tabindex="-1" aria-labelledby="searchResultModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header border-bottom-0 p-4">
+                    <div class="row w-100 align-items-center">
+                        <div class="col-8 col-lg-5 order-0">
+                            <div class="input-group custom-search">
+                                <div class="input-group-prepend input-group-text">
+                                    <img src="assets/img/logo.png" alt="" width="42px">
+                                </div>
+                                <input type="search" class="form-control" placeholder="Search">
+                                <span class="input-group-text input-group-text-icon"><img src="assets/img/search.svg" alt="" width="24px"></span>
+                            </div>
+                        </div>
+                        <div class="col-4 col-lg-2 order-2 order-lg-3">
+                            <div class="d-flex justify-content-end">
+                                <button type="button" class="btn-close btn-icon-custom mx-2 my-0" data-bs-dismiss="modal" aria-label="Close">
+                                    <img src="assets/img/back.svg" alt="" width="36px">
+                                </button>
+                                <button type="button" class="btn-close btn-icon-custom mx-2 my-0" data-bs-dismiss="modal" aria-label="Close">
+                                    <img src="assets/img/close-modal.svg" alt="" width="28px">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-5 order-3 order-lg-2 mt-3 mt-lg-0">
+                                  <!-- Nav tabs -->
+                            <ul class="nav nav-tabs tabs-style-custom" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                <a class="nav-link active" id="all-tab" data-toggle="tab" href="#all" role="tab" aria-controls="all" aria-selected="true">All</a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="videos-tab" data-toggle="tab" href="#videos" role="tab" aria-controls="videos" aria-selected="false">Videos</a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="news-tab" data-toggle="tab" href="#news" role="tab" aria-controls="news" aria-selected="false">News</a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="training-tab" data-toggle="tab" href="#training" role="tab" aria-controls="training" aria-selected="false">Training</a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link" id="books-tab" data-toggle="tab" href="#books" role="tab" aria-controls="books" aria-selected="false">Books</a>
+                                    </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <!-- Tab panes -->
+                    <div class="tab-content text-start">
+                        <div class="tab-pane active" id="all" role="tabpanel" aria-labelledby="all-tab">
+                            <div class=" mb-5 d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-lg btn-drop-custom dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Filter
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">Action</a></li>
+                                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                      <li><hr class="dropdown-divider"></li>
+                                      <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                    </ul>
+                                </div>
+                                <ul class="filter-wrapper filter-wrapper-outline d-md-flex justify-content-end flex-wrap flex-md-nowrap mb-0">
+                                    <li>
+                                        <p>Manufacturing</p>
+                                         <span><img src="assets/img/close.svg" alt=""></span>    
+                                    </li>
+                                    <li>
+                                         <p>Finance</p>
+                                         <span><img src="assets/img/close.svg" alt=""></span>    
+                                     </li>
+                                     <li>
+                                         <p>IT</p>
+                                         <span><img src="assets/img/close.svg" alt=""></span>    
+                                     </li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h3 class="fw-normal">Videos</h3>
+                                            <div class="carousel-wrap carousel-wrap-modal">
+                                                <div class="owl-carousel owl-carousel-videos owl-theme">
+                                                    <!-- <div class="item">
+                                                                <iframe width="560" height="315" src="https://www.youtube.com/embed/Il7Nv270zNk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                            </div> -->
+                                                    <div class="item-video"><a class="owl-video" href="https://www.youtube.com/watch?v=EF_kj2ojZaE"></a></div>
+                                                    <div class="item-video"><a class="owl-video" href="https://www.youtube.com/watch?v=EF_kj2ojZaE"></a></div>
+                                                    <div class="item-video"><a class="owl-video" href="https://www.youtube.com/watch?v=EF_kj2ojZaE"></a></div>
+                                                    <div class="item-video"><a class="owl-video" href="https://www.youtube.com/watch?v=EF_kj2ojZaE"></a></div>
+                                                    <div class="item-video"><a class="owl-video" href="https://www.youtube.com/watch?v=EF_kj2ojZaE"></a></div>
+                                                    <div class="item-video"><a class="owl-video" href="https://www.youtube.com/watch?v=EF_kj2ojZaE"></a></div>
+                                                    <div class="item-video"><a class="owl-video" href="https://www.youtube.com/watch?v=EF_kj2ojZaE"></a></div>
+                                                    <div class="item-video"><a class="owl-video" href="https://www.youtube.com/watch?v=EF_kj2ojZaE"></a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <h3 class="fw-normal">News</h3>
+                                            <div class="carousel-wrap carousel-wrap-modal">
+                                                <div class="owl-carousel owl-carousel-news owl-theme">
+                                                    <div class="item">
+                                                        <div class="books-grid">
+                                                            <div class="book-grid-img d-flex align-items-center justify-content-center overflow-hidden">
+                                                                <img src="assets/img/placeholder.jpg" alt="books-img" class="img-fluid">
+                                                            </div>
+                                                            <div class="book-grid-content overflow-hidden  border-top p-2">
+                                                                <p href="#" class="text-decoration-none h5 mb-2 d-block">Title</p>
+                                                                <div class="sub-text d-flex align-items-center">
+                                                                    <i class="las la-hand-holding-heart me-2"></i>
+                                                                    <p class="mb-0 text-truncate">lorem ipsum text</p>
+                                                                </div>
+                                                                <div class="reactions d-flex align-items-center">
+                                                                    <div class="likes me-2">
+                                                                        <i class="las la-heart"></i>
+                                                                        <small>30</small>
+                                                                    </div>
+                                                                    <div class="book">
+                                                                        <i class="las la-book-open"></i>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="books-grid">
+                                                            <div class="book-grid-img d-flex align-items-center justify-content-center overflow-hidden">
+                                                                <img src="assets/img/placeholder.jpg" alt="books-img" class="img-fluid">
+                                                            </div>
+                                                            <div class="book-grid-content overflow-hidden  border-top p-2">
+                                                                <p href="#" class="text-decoration-none h5 mb-2 d-block">Title</p>
+                                                                <div class="sub-text d-flex align-items-center">
+                                                                    <i class="las la-hand-holding-heart me-2"></i>
+                                                                    <p class="mb-0 text-truncate">lorem ipsum text</p>
+                                                                </div>
+                                                                <div class="reactions d-flex align-items-center">
+                                                                    <div class="likes me-2">
+                                                                        <i class="las la-heart"></i>
+                                                                        <small>30</small>
+                                                                    </div>
+                                                                    <div class="book">
+                                                                        <i class="las la-book-open"></i>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="books-grid">
+                                                            <div class="book-grid-img d-flex align-items-center justify-content-center overflow-hidden">
+                                                                <img src="assets/img/placeholder.jpg" alt="books-img" class="img-fluid">
+                                                            </div>
+                                                            <div class="book-grid-content overflow-hidden  border-top p-2">
+                                                                <p href="#" class="text-decoration-none h5 mb-2 d-block">Title</p>
+                                                                <div class="sub-text d-flex align-items-center">
+                                                                    <i class="las la-hand-holding-heart me-2"></i>
+                                                                    <p class="mb-0 text-truncate">lorem ipsum text</p>
+                                                                </div>
+                                                                <div class="reactions d-flex align-items-center">
+                                                                    <div class="likes me-2">
+                                                                        <i class="las la-heart"></i>
+                                                                        <small>30</small>
+                                                                    </div>
+                                                                    <div class="book">
+                                                                        <i class="las la-book-open"></i>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="books-grid">
+                                                            <div class="book-grid-img d-flex align-items-center justify-content-center overflow-hidden">
+                                                                <img src="assets/img/placeholder.jpg" alt="books-img" class="img-fluid">
+                                                            </div>
+                                                            <div class="book-grid-content overflow-hidden  border-top p-2">
+                                                                <p href="#" class="text-decoration-none h5 mb-2 d-block">Title</p>
+                                                                <div class="sub-text d-flex align-items-center">
+                                                                    <i class="las la-hand-holding-heart me-2"></i>
+                                                                    <p class="mb-0 text-truncate">lorem ipsum text</p>
+                                                                </div>
+                                                                <div class="reactions d-flex align-items-center">
+                                                                    <div class="likes me-2">
+                                                                        <i class="las la-heart"></i>
+                                                                        <small>30</small>
+                                                                    </div>
+                                                                    <div class="book">
+                                                                        <i class="las la-book-open"></i>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="fw-normal">Books</h3>
+                                    <div class="row g-2 g-md-3">
+                                        <div class="col-xl-3 col-6">
+                                            <div class="books-grid">
+                                                <div class="book-grid-img d-flex align-items-center justify-content-center overflow-hidden">
+                                                    <img src="assets/img/books.svg" alt="books-img" class="img-fluid">
+                                                </div>
+                                                <div class="book-grid-content overflow-hidden  border-top p-2 p-md-3">
+                                                    <a href="#" class="text-decoration-none" >Makinga Collection Count</a>
+                                                    <div>
+                                                        <b>¥ 7,838</b>
+                                                        <p class="mb-0">$ 68.00</p>
+                                                        <p class="mb-0">Elsevier</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-3 col-6">
+                                            <div class="books-grid">
+                                                <div class="book-grid-img d-flex align-items-center justify-content-center overflow-hidden">
+                                                    <img src="assets/img/books.svg" alt="books-img" class="img-fluid">
+                                                </div>
+                                                <div class="book-grid-content overflow-hidden  border-top p-2 p-md-3">
+                                                    <a href="#" class="text-decoration-none" >Makinga Collection Count</a>
+                                                    <div>
+                                                        <b>¥ 7,838</b>
+                                                        <p class="mb-0">$ 68.00</p>
+                                                        <p class="mb-0">Elsevier</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-3 col-6">
+                                            <div class="books-grid">
+                                                <div class="book-grid-img d-flex align-items-center justify-content-center overflow-hidden">
+                                                    <img src="assets/img/books.svg" alt="books-img" class="img-fluid">
+                                                </div>
+                                                <div class="book-grid-content overflow-hidden  border-top p-2 p-md-3">
+                                                    <a href="#" class="text-decoration-none" >Makinga Collection Count</a>
+                                                    <div>
+                                                        <b>¥ 7,838</b>
+                                                        <p class="mb-0">$ 68.00</p>
+                                                        <p class="mb-0">Elsevier</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-3 col-6">
+                                            <div class="books-grid">
+                                                <div class="book-grid-img d-flex align-items-center justify-content-center overflow-hidden">
+                                                    <img src="assets/img/books.svg" alt="books-img" class="img-fluid">
+                                                </div>
+                                                <div class="book-grid-content overflow-hidden  border-top p-2 p-md-3">
+                                                    <a href="#" class="text-decoration-none" >Makinga Collection Count</a>
+                                                    <div>
+                                                        <b>¥ 7,838</b>
+                                                        <p class="mb-0">$ 68.00</p>
+                                                        <p class="mb-0">Elsevier</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="videos" role="tabpanel" aria-labelledby="videos-tab">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h3 class="fw-normal mb-3">Videos</h3>
+                                    
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="news" role="tabpanel" aria-labelledby="news-tab">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h3 class="fw-normal mb-3">News</h3>
+                                    
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="training" role="tabpanel" aria-labelledby="training-tab">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h3 class="fw-normal mb-3">Training</h3>
+                                    
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="books" role="tabpanel" aria-labelledby="books-tab">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h3 class="fw-normal mb-3">Books</h3>
+                                    
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="assets/bootstrap-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="owl/dist/owl.carousel.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <!-- <script>
+        myModal.handleUpdate() 
+    </script> -->
+</body>
+
+</html>
