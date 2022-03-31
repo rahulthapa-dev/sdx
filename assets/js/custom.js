@@ -1,3 +1,14 @@
+$(document).on("click", "#see-all", function() {
+    var searchCaseEl = document.getElementById('searchcase');
+    var searchResultEl = document.getElementById('searchResult');
+
+    var searchCaseModal = bootstrap.Modal.getInstance(searchCaseEl);
+    var searchResultModal = bootstrap.Modal.getInstance(searchResultEl);
+    searchCaseModal.hide();
+    setTimeout(() => {
+        $('#searchResult').modal('show');
+    }, 500);
+});
 $('#myTab a').on('click', function (e) {
     e.preventDefault()
     $(this).tab('show')
@@ -14,6 +25,12 @@ $('#myTab a').on('click', function (e) {
     dots: false,
     responsive:{
         480:{
+            items:1
+        },
+        658:{
+            items:2
+        },
+        768:{
             items:1
         },
         1024:{

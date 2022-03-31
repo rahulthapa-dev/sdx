@@ -440,7 +440,7 @@ ul.filter-wrapper-outline li p {
   border-width: 0 1px 0 0;
   border-color: #06152B;
 }
-.tabs-style-custom.nav-tabs .nav-items:last-child {
+.tabs-style-custom.nav-tabs .nav-item:last-child .nav-link {
   border: 0;
 }
 button.btn-close.btn-icon-custom {
@@ -477,6 +477,11 @@ button.btn-close.btn-icon-custom {
   width: 100%;
 }
 /* media */
+@media(max-width: 1140px) {
+  .nav-tabs .nav-link {
+    padding: .5rem .8rem;
+  }
+}
 @media (max-width: 992px) {
   .modal.show .modal-dialog {
     padding: 1rem;;
