@@ -3,7 +3,7 @@ $('#myTab a').on('click', function (e) {
     $(this).tab('show')
   })
   $('.owl-carousel-news').owlCarousel({
-    items:4,
+    items:1,
     margin:10,
     nav: true,
     navText: [
@@ -28,7 +28,7 @@ $('#myTab a').on('click', function (e) {
     }
 })
 $('.owl-carousel-videos').owlCarousel({
-    items:3,
+    items:2,
     merge:false,
     loop:true,
     nav: true,
@@ -36,12 +36,13 @@ $('.owl-carousel-videos').owlCarousel({
       "<div class='nav-c nav-prev'></div>",
       "<div class='nav-c nav-next'></div>"
     ],
-    autoplay: true,
+    autoplay: false,
     autoplayHoverPause: true,
     margin:10,
     video:true,
     lazyLoad:true,
     center:false,
+    autoHeight:true,
     dots: false,
     responsive:{
         480:{
@@ -54,26 +55,26 @@ $('.owl-carousel-videos').owlCarousel({
             items:2
         },
         1280:{
-            items:3
+            items:2
         },
     }
 })
 
-$('.owl-carousel').owlCarousel({
-    items:4,
-    merge:false,
+$('.owl-carousel-home').owlCarousel({
+    items:3,
+    merge:true,
     loop:true,
     nav: true,
     navText: [
       "<div class='nav-c nav-prev'></div>",
       "<div class='nav-c nav-next'></div>"
     ],
-    autoplay: true,
-    autoplayHoverPause: true,
+    // autoplay: false,
+    // autoplayHoverPause: true,
     margin:10,
     video:true,
     lazyLoad:true,
-    center:false,
+    center:true,
     dots: false,
     responsive:{
         480:{
@@ -83,7 +84,7 @@ $('.owl-carousel').owlCarousel({
             items:1
         },
         991:{
-            items:4
+            items:3
         },
     }
 })
