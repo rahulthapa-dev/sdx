@@ -80,7 +80,7 @@ $('.owl-carousel').owlCarousel({
             items:1
         },
         600:{
-            items:2
+            items:1
         },
         991:{
             items:4
