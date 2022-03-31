@@ -45,7 +45,7 @@ $('#myTab a').on('click', function (e) {
     }
 })
 $('.owl-carousel-videos').owlCarousel({
-    items:2,
+    items:1,
     merge:false,
     loop:true,
     nav: true,
@@ -78,7 +78,7 @@ $('.owl-carousel-videos').owlCarousel({
 })
 
 $('.owl-carousel-home').owlCarousel({
-    items:3,
+    items:1,
     merge:true,
     loop:true,
     nav: true,
