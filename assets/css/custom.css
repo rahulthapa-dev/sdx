@@ -274,7 +274,7 @@ body .container-main {
   font-weight: 700;
   font-size: 1.4rem;
   border-radius: 30px !important;
-  padding-left: 80px;
+  padding-left: 70px;
   padding-right: 60px;
   box-shadow: 0 4px 8px rgba(0,0,0,.2);
   border: 1px solid #f1f1f1;
@@ -287,7 +287,7 @@ body .container-main {
     background: transparent;
     top: 14px;
 }
-.custom-search .input-group-prepend:after {
+/* .custom-search .input-group-prepend:after {
   content: '';
   height: 41px;
   width: 3px;
@@ -295,7 +295,7 @@ body .container-main {
   right: 0;
   top: -6px;
   background-color: #b7b5b5;
-}
+} */
 .custom-search .form-control:focus,
 .custom-search .form-control:active,
 .custom-search .form-control.active {
