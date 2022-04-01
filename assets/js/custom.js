@@ -9,6 +9,24 @@ $(document).on("click", "#see-all", function() {
         $('#searchResult').modal('show');
     }, 500);
 });
+$(document).on("click", "#backSearchCase", function() {
+    var searchResultEl = document.getElementById('searchResult');
+    var searchCaseEl = document.getElementById('searchcase');
+
+    var searchCaseModal = bootstrap.Modal.getInstance(searchResultEl);
+    var searchResultModal = bootstrap.Modal.getInstance(searchCaseEl);
+    searchCaseModal.hide();
+    setTimeout(() => {
+        $('#searchcase').modal('show');
+    }, 500);
+});
+document.addEventListener("DOMContentLoaded", function(){
+    document.getElementById("searchInput").addEventListener("keypress", function(event){
+        if(event.key == 'Enter'){
+            document.getElementById("searchBtn").click();
+        }
+    });
+});
 $('#myTab a').on('click', function (e) {
     e.preventDefault()
     $(this).tab('show')
