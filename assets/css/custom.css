@@ -49,12 +49,12 @@
 }
 /*  */
 .box-col-outer {
-  width: 261px;
+  width: 277px;
   cursor: pointer;
 }
 .box-col {
   max-width: 261px;
-  min-height: 259px;
+  max-height: 261px;
   background-color: #DEE3E8;
   border-radius: 37px;
   padding: 2rem;
@@ -474,6 +474,9 @@ button.btn-close.btn-icon-custom {
 }
 .container-small {
   max-width: 991px;
+  width: 100%;
+}
+.owl-carousel-home .embed-responsive-item {
   width: 100%;
 }
 /* media */
