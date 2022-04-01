@@ -314,7 +314,7 @@ body .container-main {
   overflow: hidden;
 }
 .book-grid-img {
-    height: 140px;
+    height: auto;
 }
 .book-grid-content {
   border-color: #707070;
@@ -415,10 +415,19 @@ ul.filter-wrapper-outline li {
   min-height: 50px;
     background: #fff !important;
     border: 5px solid #FFCE00;
+    transition:  all .3s ease-in;
+}
+ul.filter-wrapper.filter-wrapper-outline li:hover:first-child,
+ul.filter-wrapper.filter-wrapper-outline li:hover{
+  background-color: #FFCE00 !important;
+  transition:  all .3s ease-in;
 }
 ul.filter-wrapper-outline li p {
   font-size: 1.2rem;
   color: #06152B;
+}
+ul.filter-wrapper-outline li span {
+  cursor: pointer;
 }
 .tabs-style-custom.nav-tabs {
   border: 4px solid #666;
@@ -426,14 +435,16 @@ ul.filter-wrapper-outline li p {
   overflow: hidden;
   display: inline-flex;
 }
-
+.tabs-style-custom.nav-tabs .nav-link:hover {
+  opacity: 1;
+}
 .tabs-style-custom.nav-tabs .nav-link,
 .tabs-style-custom.nav-tabs .nav-item.show .nav-link,
 .tabs-style-custom.nav-tabs .nav-link.active {
   color: #06152B;
   border-radius: 0;
   font-weight: 500;
-  
+  opacity: .7;
 }
 .tabs-style-custom.nav-tabs .nav-link,
 .tabs-style-custom.nav-tabs .nav-item.show .nav-link {
@@ -479,6 +490,9 @@ button.btn-close.btn-icon-custom {
 .owl-carousel-home .embed-responsive-item {
   width: 100%;
 }
+#searchResult .modal-dialog {
+  max-width: 100%;
+}
 /* media */
 @media(max-width: 1140px) {
   .nav-tabs .nav-link {
@@ -509,6 +523,7 @@ button.btn-close.btn-icon-custom {
     padding: .2rem 1.4rem;
     margin: 5px 5px 5px 0;
   }
+  
   .custom-search .form-control {
     font-size: 1.1rem;
   }
@@ -534,5 +549,37 @@ button.btn-close.btn-icon-custom {
   }
   .nav-tabs .nav-link {
     font-size: .875rem;
+  }
+  .case-link {
+    max-width: 220px;
+  }
+}
+@media (max-width: 576px) {
+  .case-link {
+    max-width: 170px;
+  }
+  .case-link .h3 {
+    font-size: 1.2rem;
+  }
+  .case-img {
+    padding: .5rem;
+  }
+  .tabs-style-custom.nav-tabs {
+    border-width: 2px;
+  }
+  ul.filter-wrapper-outline li {
+    min-height: 36px;
+    border-width: 2px;
+    padding: .2rem 1rem;
+  }
+  ul.filter-wrapper-outline li p {
+    font-size: .875rem;
+  }
+  .dropdown-toggle::after {
+    width: 10px;
+    height: 10px;
+  }
+  .modal-header .btn-close {
+    padding: 0;
   }
 }
