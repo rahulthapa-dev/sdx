@@ -438,13 +438,15 @@ ul.filter-wrapper-outline li span {
 .tabs-style-custom.nav-tabs .nav-link:hover {
   opacity: 1;
 }
+.tabs-style-custom.nav-tabs .nav-link {
+  opacity: .7;
+}
 .tabs-style-custom.nav-tabs .nav-link,
 .tabs-style-custom.nav-tabs .nav-item.show .nav-link,
 .tabs-style-custom.nav-tabs .nav-link.active {
   color: #06152B;
   border-radius: 0;
   font-weight: 500;
-  opacity: .7;
 }
 .tabs-style-custom.nav-tabs .nav-link,
 .tabs-style-custom.nav-tabs .nav-item.show .nav-link {
@@ -562,7 +564,7 @@ button.btn-close.btn-icon-custom {
     font-size: 1.2rem;
   }
   .case-img {
-    padding: .5rem;
+    padding: .2rem;
   }
   .tabs-style-custom.nav-tabs {
     border-width: 2px;
@@ -581,5 +583,58 @@ button.btn-close.btn-icon-custom {
   }
   .modal-header .btn-close {
     padding: 0;
+  }
+  /*  */
+  .carousel-wrap.carousel-wrap-modal .nav-c {
+    height: 33px;
+    width: 33px;
+    position: static;
+    background-size: 21px !important;
+  }
+  div.owl-theme .owl-nav [class*=owl-], .owl-theme .owl-nav [class*=owl-]:hover {
+    background-color: transparent !important;
+  }
+  .carousel-wrap.carousel-wrap-modal {
+    width: 100%;
+  }
+  .modal-content .custom-search.input-group {
+    height: 45px;
+  }
+  .modal-content .custom-search .form-control {
+    padding-right: 31px;
+    padding-left: 64px;
+  }
+  .modal-content .custom-search .form-control {
+    font-size: .875rem;
+  }
+  .modal-content .custom-search .input-group-text-icon {
+    padding: 10px 5px;
+    top: 5px;
+  }
+  .modal-content .custom-search .input-group-text-icon img {
+    width: 15px !important;
+  }
+  .modal-content .custom-search .input-group-prepend {
+    top: 10px;
+  }
+  .padding-mobile {
+    padding-right: 61px;
+  }
+  .position-mobile {
+    position: absolute;
+    top: 9px;
+    right: 0;
+  }
+  .modal-header button.btn-close.btn-icon-custom {
+    margin: 0 0 0 7px !important;
+  }
+  button.btn-close.btn-icon-custom img[width="36px"] {
+    width: 18px;
+  }
+  button.btn-close.btn-icon-custom img {
+    width: 14px;
+  }
+  .books-grid {
+    border-radius: 10px;
   }
 }

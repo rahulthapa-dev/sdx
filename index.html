@@ -23,6 +23,7 @@
     
     <!-- Custom styles for this template -->
     <link href="assets/css/custom.css" rel="stylesheet">
+    <link href="assets/css/tabs-scroll.css" rel="stylesheet">
 
     <!-- owl carousel -->
     <link rel="stylesheet" href="owl/dist/assets/owl.carousel.min.css">
@@ -185,7 +186,6 @@
                             <div class="embed-responsive embed-responsive-4by3">
                                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/EF_kj2ojZaE" allowfullscreen></iframe>
                             </div>
-                            <!-- <a class="owl-video" href="https://www.youtube.com/watch?v=EF_kj2ojZaE"></a> -->
                         </div>
                         <div class="item-video">
                             <div class="embed-responsive embed-responsive-4by3">
@@ -234,15 +234,15 @@
     <div class="modal" id="useCase" tabindex="-1" aria-labelledby="useCaseModalLabel" data-bs-backdrop="static" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-fullscreen p-3 p-lg-5">
             <div class="modal-content modal-content-container">
-                <div class="modal-header border-bottom-0 p-4">
+                <div class="modal-header border-bottom-0 p-md-4 px-3">
                     <h5 class="modal-title h3" id="useCaseModalLabel">Use Case</h5>
                     <button type="button" class="btn-close btn-icon-custom mx-2 my-0" data-bs-dismiss="modal" aria-label="Close">
                         <img src="assets/img/close-modal.svg" alt="" width="28px">
                     </button>
                 </div>
                 <div class="modal-body py-2 py-md-5">
-                    <div class="use-case-inner-body d-flex justify-content-md-between justify-content-center mx-md-auto  flex-wrap flex-md-nowrap text-center ">
-                        <div class="case-link text-center px-3 mb-3 mb-md-0">
+                    <div class="use-case-inner-body d-flex justify-content-md-between justify-content-center mx-md-auto  text-center ">
+                        <div class="case-link text-center px-1 px-sm-3 mb-3 mb-md-0">
                             <div class="case-img">
                                 <img src="assets/img/Use-case-japan.svg" alt="japan" class="img-fluid" >
                             </div>
@@ -265,7 +265,7 @@
     <div class="modal" id="searchcase" tabindex="-1" aria-labelledby="searchcaseModalLabel" data-bs-backdrop="static" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-fullscreen p-3 p-lg-5 modal-dialog-scrollable">
             <div class="modal-content modal-content-container">
-                <div class="modal-header border-bottom-0 p-4">
+                <div class="modal-header border-bottom-0 p-md-4 px-3">
                     <div class="input-group custom-search">
                         <div class="input-group-prepend input-group-text">
                             <img src="assets/img/logo.png" alt="" width="42px">
@@ -278,24 +278,24 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <div class="d-flex justify-content-md-between justify-content-center flex-wrap flex-md-nowrap text-center ">
-                        <div class="case-link text-center px-3 mb-3 mb-md-0">
+                    <div class="d-flex justify-content-md-between justify-content-center text-center ">
+                        <div class="case-link text-center px-1 px-sm-3 mb-3 mb-md-0">
                             <div class="case-img">
-                                <img src="assets/img/News.svg" alt="japan" class="img-fluid" >
+                                <img src="assets/img/News.svg" alt="news" class="img-fluid" >
                             </div>
                             <h4 class="mt-3 h3">News</h4>
                         </div>
                         
                     
-                        <div class="case-link text-center px-3 mb-3 mb-md-0">
+                        <div class="case-link text-center px-1 px-sm-3 mb-3 mb-md-0">
                             <div class="case-img">
-                                <img src="assets/img/Videos.svg" alt="japan" class="img-fluid" >
+                                <img src="assets/img/Videos.svg" alt="videos" class="img-fluid" >
                             </div>
                             <h4 class="mt-3 h3">Videos</h4>
                         </div>
-                        <div class="case-link text-center px-3">
+                        <div class="case-link text-center px-1 px-sm-3">
                             <div class="case-img">
-                                <img src="assets/img/Books-img.svg" alt="japan" class="img-fluid" >
+                                <img src="assets/img/Books-img.svg" alt="books" class="img-fluid" >
                             </div>
                             <h4 class="mt-3 h3">Books</h4>
                         </div>
@@ -310,7 +310,7 @@
                         
                     </div>
                 </div>
-                <div class="modal-footer border-top-0 px-5">
+                <div class="modal-footer border-top-0 p-md-4 px-3">
                     <button id="see-all" type="button" class="btn btn-warning btn-modal btnmd-lg py-md-3 px-md-4 fw-bold text-white" >See All <i class="las la-angle-right"></i></button> 
                     <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
                     
@@ -323,8 +323,9 @@
         <div class="modal-dialog  modal-dialog-centered p-3 p-lg-5">
             <div class="modal-content">
                 <div class="modal-header border-bottom-0 p-md-4 px-3">
-                    <div class="row w-100 align-items-center">
-                        <div class="col-9 col-lg-5 order-0">
+                    <div class="container-fluid px-0">
+                    <div class="row align-items-center position-relative">
+                        <div class="col-12 col-sm-9 col-lg-5 order-0 padding-mobile">
                             <div class="input-group custom-search">
                                 <div class="input-group-prepend input-group-text">
                                     <img src="assets/img/logo.png" alt="" width="42px">
@@ -333,7 +334,7 @@
                                 <span class="input-group-text input-group-text-icon"><img src="assets/img/search.svg" alt="" width="24px"></span>
                             </div>
                         </div>
-                        <div class="col-3 col-lg-2 order-2 order-lg-3">
+                        <div class="col-3 col-lg-2 order-2 order-lg-3 position-mobile">
                             <div class="d-flex justify-content-end">
                                 <button id="backSearchCase" type="button" class="btn-close btn-icon-custom mx-2 my-0">
                                     <img src="assets/img/back.svg" alt="" width="36px">
@@ -344,32 +345,37 @@
                             </div>
                         </div>
                         <div class="col-12 col-lg-5 order-3 order-lg-2 mt-3 mt-lg-0">
-                                  <!-- Nav tabs -->
-                            <ul class="nav nav-tabs tabs-style-custom" id="myTab" role="tablist">
-                                <li class="nav-item" role="presentation">
-                                <a class="nav-link active" id="all-tab" data-toggle="tab" href="#all" role="tab" aria-controls="all" aria-selected="true">All</a>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                <a class="nav-link" id="videos-tab" data-toggle="tab" href="#videos" role="tab" aria-controls="videos" aria-selected="false">Videos</a>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                <a class="nav-link" id="news-tab" data-toggle="tab" href="#news" role="tab" aria-controls="news" aria-selected="false">News</a>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                <a class="nav-link" id="training-tab" data-toggle="tab" href="#training" role="tab" aria-controls="training" aria-selected="false">Training</a>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <a class="nav-link" id="books-tab" data-toggle="tab" href="#books" role="tab" aria-controls="books" aria-selected="false">Books</a>
+                            <!-- Nav tabs -->
+                            <div class="scroller scroller-left float-left"><i class="las la-angle-left"></i></div>
+                            <div class="scroller scroller-right float-right"><i class="las la-angle-right"></i></div>
+                            <div class="wrapper-tabs">
+                                <ul class="nav nav-tabs list tabs-style-custom" id="myTab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                    <a class="nav-link active" id="all-tab" data-toggle="tab" href="#all" role="tab" aria-controls="all" aria-selected="true">All</a>
                                     </li>
-                            </ul>
+                                    <li class="nav-item" role="presentation">
+                                    <a class="nav-link" id="videos-tab" data-toggle="tab" href="#videos" role="tab" aria-controls="videos" aria-selected="false">Videos</a>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                    <a class="nav-link" id="news-tab" data-toggle="tab" href="#news" role="tab" aria-controls="news" aria-selected="false">News</a>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                    <a class="nav-link" id="training-tab" data-toggle="tab" href="#training" role="tab" aria-controls="training" aria-selected="false">Training</a>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <a class="nav-link" id="books-tab" data-toggle="tab" href="#books" role="tab" aria-controls="books" aria-selected="false">Books</a>
+                                        </li>
+                                </ul>
+                            </div>
                         </div>
+                    </div>
                     </div>
                 </div>
                 <div class="modal-body">
                     <!-- Tab panes -->
                     <div class="tab-content text-start">
                         <div class="tab-pane active" id="all" role="tabpanel" aria-labelledby="all-tab">
-                            <div class=" mb-5 d-md-flex justify-content-between flex-wrap flex-md-nowrap align-items-center">
+                            <div class="mb-3 mb-sm-5 d-md-flex justify-content-between flex-wrap flex-md-nowrap align-items-center">
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-lg btn-drop-custom dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                                       Filter
@@ -404,9 +410,6 @@
                                             <h3 class="fw-normal">Videos</h3>
                                             <div class="carousel-wrap carousel-wrap-modal">
                                                 <div class="owl-carousel owl-carousel-videos owl-theme">
-                                                    <!-- <div class="item">
-                                                                <iframe width="560" height="315" src="https://www.youtube.com/embed/Il7Nv270zNk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                                            </div> -->
                                                     <div class="item-video">
                                                         <div class="embed-responsive embed-responsive-4by3">
                                                             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Qah9sSIXJqk"></iframe>
@@ -422,13 +425,7 @@
                                                             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rX_Xr-F-hEQ"></iframe>
                                                           </div>
                                                     </div>
-                                                    <!-- <div class="item-video"><a class="owl-video" href="https://www.youtube.com/watch?v=2lHznEzml2k"></a></div>
-                                                    <div class="item-video"><a class="owl-video" href="https://www.youtube.com/watch?v=MNZXfIf0z04"></a></div>
-                                                    <div class="item-video"><a class="owl-video" href="https://www.youtube.com/watch?v=sUJJG4Dac88"></a></div>
-                                                    <div class="item-video"><a class="owl-video" href="https://www.youtube.com/watch?v=StKxJsXXXEE"></a></div>
-                                                    <div class="item-video"><a class="owl-video" href="https://www.youtube.com/watch?v=YmUptL9VSdg"></a></div>
-                                                    <div class="item-video"><a class="owl-video" href="https://www.youtube.com/watch?v=aennP6RAcz4"></a></div>
-                                                    <div class="item-video"><a class="owl-video" href="https://www.youtube.com/watch?v=jcZfnPI1PLY"></a></div> -->
+                                                    
                                                 </div>
                                             </div>
                                         </div>
@@ -715,6 +712,7 @@
     <script src="assets/bootstrap-dist/js/bootstrap.bundle.min.js"></script>
     <script src="owl/dist/owl.carousel.min.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script src="assets/js/tabs-scroll.js"></script>
     <!-- <script>
         myModal.handleUpdate() 
     </script> -->
