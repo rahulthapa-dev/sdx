@@ -567,6 +567,21 @@ button.btn-close.btn-icon-custom {
     padding: 0 1rem;
     margin-bottom: 5px;
   }
+  .box-col-outer {
+    width: 217px;
+  }
+  .box-col {
+    max-width: 217px;
+    max-height: 217px;
+    padding: 1rem;
+  }
+  .app-box {
+    width: 65px;
+    height: 65px;
+  }
+  .box-col-outer .h1 {
+    font-size: calc(1.325rem + .9vw);
+  }
 }
 /* @media (max-width: 800px) {
   .tabs-style-custom.nav-tabs .nav-link {
