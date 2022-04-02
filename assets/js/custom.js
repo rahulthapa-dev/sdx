@@ -32,7 +32,7 @@ $('#myTab a').on('click', function (e) {
     $(this).tab('show')
   })
   $('.owl-carousel-news').owlCarousel({
-    items:1,
+    items:2,
     margin:10,
     nav: true,
     navText: [
@@ -43,13 +43,13 @@ $('#myTab a').on('click', function (e) {
     dots: false,
     responsive:{
         480:{
-            items:1
+            items:2
         },
         658:{
             items:2
         },
         768:{
-            items:1
+            items:2
         },
         1024:{
             items:2
@@ -83,8 +83,8 @@ $('.owl-carousel-videos').owlCarousel({
         480:{
             items:1
         },
-        991:{
-            items:1
+        548:{
+            items:2
         },
         1024:{
             items:2

@@ -320,7 +320,7 @@
     </div>
     <!-- Modal search result-->
     <div class="modal" id="searchResult" tabindex="-1" aria-labelledby="searchResultModalLabel" data-bs-backdrop="static" aria-hidden="true">
-        <div class="modal-dialog  modal-dialog-centered p-3 p-lg-5">
+        <div class="modal-dialog  modal-dialog-centered p-0 p-sm-3 p-lg-5">
             <div class="modal-content">
                 <div class="modal-header border-bottom-0 p-md-4 px-3">
                     <div class="container-fluid px-0">
@@ -604,8 +604,8 @@
                                     <div class="row g-2 g-md-3">
                                         <div class="col-xl-3 col-md-6 col-sm-6 col-6">
                                             <div class="books-grid">
-                                                <div class="book-grid-img d-flex align-items-center justify-content-center overflow-hidden">
-                                                    <img src="assets/img/books.svg" alt="books-img" class="img-fluid">
+                                                <div class="book-grid-img  overflow-hidden">
+                                                    <img src="assets/img/books.png" alt="books-img" class="img-fluid">
                                                 </div>
                                                 <div class="book-grid-content overflow-hidden  border-top p-2 p-md-3">
                                                     <a href="#" class="text-decoration-none" >Makinga Collection Count</a>
@@ -619,8 +619,8 @@
                                         </div>
                                         <div class="col-xl-3 col-md-6 col-sm-6 col-6">
                                             <div class="books-grid">
-                                                <div class="book-grid-img d-flex align-items-center justify-content-center overflow-hidden">
-                                                    <img src="assets/img/books.svg" alt="books-img" class="img-fluid">
+                                                <div class="book-grid-img  overflow-hidden">
+                                                    <img src="assets/img/books.png" alt="books-img" class="img-fluid">
                                                 </div>
                                                 <div class="book-grid-content overflow-hidden  border-top p-2 p-md-3">
                                                     <a href="#" class="text-decoration-none" >Makinga Collection Count</a>
@@ -634,8 +634,8 @@
                                         </div>
                                         <div class="col-xl-3 col-md-6 col-sm-6 col-6">
                                             <div class="books-grid">
-                                                <div class="book-grid-img d-flex align-items-center justify-content-center overflow-hidden">
-                                                    <img src="assets/img/books.svg" alt="books-img" class="img-fluid">
+                                                <div class="book-grid-img  overflow-hidden">
+                                                    <img src="assets/img/books.png" alt="books-img" class="img-fluid">
                                                 </div>
                                                 <div class="book-grid-content overflow-hidden  border-top p-2 p-md-3">
                                                     <a href="#" class="text-decoration-none" >Makinga Collection Count</a>
@@ -649,8 +649,8 @@
                                         </div>
                                         <div class="col-xl-3 col-md-6 col-sm-6 col-6">
                                             <div class="books-grid">
-                                                <div class="book-grid-img d-flex align-items-center justify-content-center overflow-hidden">
-                                                    <img src="assets/img/books.svg" alt="books-img" class="img-fluid">
+                                                <div class="book-grid-img  overflow-hidden">
+                                                    <img src="assets/img/books.png" alt="books-img" class="img-fluid">
                                                 </div>
                                                 <div class="book-grid-content overflow-hidden  border-top p-2 p-md-3">
                                                     <a href="#" class="text-decoration-none" >Makinga Collection Count</a>
@@ -713,9 +713,11 @@
     <script src="owl/dist/owl.carousel.min.js"></script>
     <script src="assets/js/custom.js"></script>
     <script src="assets/js/tabs-scroll.js"></script>
-    <!-- <script>
-        myModal.handleUpdate() 
-    </script> -->
+    <script>
+        if ($('body').width() < 460) {
+            reAdjust();
+        }
+    </script>
 </body>
 
 </html>

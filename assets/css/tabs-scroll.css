@@ -1,4 +1,4 @@
-@media (max-width: 390px) {
+@media (max-width: 460px) {
     .wrapper-tabs {
         position:relative;
         margin:0 auto;
@@ -11,7 +11,7 @@
         position:absolute;
         left:0px;
         top:0px;
-          min-width:360px;
+          min-width:400px;
           margin-left:0;
         margin-top:0px;
     }

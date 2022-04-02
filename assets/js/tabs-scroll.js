@@ -37,6 +37,7 @@ var reAdjust = function(){
 
 reAdjust();
 
+
 $(window).on('resize',function(e){  
   	reAdjust();
 });
