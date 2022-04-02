@@ -109,14 +109,14 @@ $('.owl-carousel-home').owlCarousel({
     margin:10,
     video:true,
     lazyLoad:true,
-    center:true,
+    center:false,
     dots: false,
     responsive:{
         480:{
             items:1
         },
         600:{
-            items:1
+            items:2
         },
         991:{
             items:3
