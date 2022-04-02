@@ -454,6 +454,9 @@ ul.filter-wrapper-outline li span {
   border-color: #06152B;
   opacity: 1;
 }
+.tabs-style-custom.nav-tabs .nav-link.active {
+  background-color: #fff;
+}
 .tabs-style-custom.nav-tabs .nav-link:hover,
 .tabs-style-custom.nav-tabs .nav-link:focus {
   background-color: #6666662e;
@@ -585,6 +588,7 @@ button.btn-close.btn-icon-custom {
   .filter-wrapper li {
     padding-top: 0;
     padding-bottom: 0;
+    margin: 5px 5px 5px 0 !important;
   }
 }
 /* @media (max-width: 800px) {

@@ -717,6 +717,12 @@
         if ($('body').width() < 460) {
             reAdjust();
         }
+        var myModalEl = document.getElementById('searchResult')
+            myModalEl.addEventListener('shown.bs.modal', function (event) {
+                if ($('body').width() < 460) {
+                reAdjust();
+            }
+        })
     </script>
 </body>
 
